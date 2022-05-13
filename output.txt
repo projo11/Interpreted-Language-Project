@@ -1,0 +1,27 @@
+Line: if 5-2 then skip else x := x+1 endif
+	KEYWORD: if
+	NUMBER: 5
+	SYMBOL: -
+	NUMBER: 2
+	KEYWORD: then
+	KEYWORD: skip
+	KEYWORD: else
+	IDENTIFIER: x
+	SYMBOL: :=
+	IDENTIFIER: x
+	SYMBOL: +
+	NUMBER: 1
+	KEYWORD: endif
+
+
+IF-STATEMENT
+		- : SYMBOL
+				5 : NUMBER
+				2 : NUMBER
+		SKIP
+		:= : SYMBOL
+				x : IDENTIFIER
+				+ : SYMBOL
+						x : IDENTIFIER
+						1 : NUMBER
+		
